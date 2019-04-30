@@ -5,7 +5,8 @@
 - [x] Install Helm
 - [x] Deploy spinnaker
 - [ ] Deploy istio
-- [ ] Demonstrate the deployment of an example application composed of different services with automatic canary analysis and configuration of request routing in Istio.
+- [ ] Demonstrate the deployment of an example application (micro-services) with automatic canary analysis
+- [ ] Configuration of request routing in Istio.
 
 ## Create a Kubernetes cluster
 Following the tutorial from @kelseyhightower [Kubernetes The Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way).
@@ -127,3 +128,7 @@ EOF
 
 helm install -n spinnaker stable/spinnaker -f spinnaker-config.yaml --timeout 600 --version 1.1.6 --wait
 ```
+
+
+## Deploy istio
+*WIP*
